@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // for loop
+    for (int i = 0; i < 10; i++) {
+        cout << "I : " << i + 1 << "\n";
+    }
+
+    // break
+    for (int i = 0; i < 10; i++) {
+        if (i == 4) {
+            break;
+        }
+        cout << i << "\n";
+    }
+    // continue
+    for (int i = 0; i < 10; i++) {
+        if (i == 4) {
+            continue;
+        }
+        cout << i << "\n";
+    }
+}
